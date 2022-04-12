@@ -6,5 +6,5 @@ cd ..
 
 mv lib/*.so .
 
-g++ -std=c++17 -L. -ltest -Wl,-rpath='${ORIGIN}' -o testapp testapp.cpp
+g++ -std=c++14 -L. -ltest -Wl,-rpath='${ORIGIN}' -o testapp testapp.cpp
 
