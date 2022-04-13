@@ -1,6 +1,8 @@
 testapp
 testapp-clang
 
+build
+
 # Prerequisites
 *.d
 
