@@ -35,8 +35,11 @@ void printStruct2Info14()
 int main()
 {
 
+    std::cout << "\n*********** Type 1\n";
     printStructInfo11();
     printStructInfo14();
+
+    std::cout << "\n*********** Type 2\n";
 
     printStruct2Info11();
     printStruct2Info14();

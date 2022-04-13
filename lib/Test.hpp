@@ -15,13 +15,14 @@ void printStructInfo11();
 
 struct A2
 {
-    uint16_t m{3};
+    uint16_t m { 65535 };
     bool n;
 };
 
 struct B2 : public A2
 {
     bool o;
+    
 };
 
 void printStruct2Info11();
