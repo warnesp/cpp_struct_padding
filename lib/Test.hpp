@@ -27,3 +27,4 @@ struct B2 : public A2
 
 void printStruct2Info11();
 
+void printInLib(B2 const & b);

@@ -33,3 +33,8 @@ void printStruct2Info11()
         << ") n: (" << &(b.n) << ") o(" << &(b.o) << ")\n";
 
 }
+
+void printInLib(B2 const & b)
+{
+    std::cout << "B2.o created from App printed in lib: " << std::boolalpha << b.o << std::endl;
+}

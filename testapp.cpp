@@ -43,5 +43,12 @@ int main()
 
     printStruct2Info11();
     printStruct2Info14();
+
+    std::cout << "\n*********** \n";
+    B2 b;
+    b.o = false;
+    std::cout << "B2.o created from App printed in app: " << std::boolalpha << b.o << std::endl;
+    printInLib(b);
+
 }
 
